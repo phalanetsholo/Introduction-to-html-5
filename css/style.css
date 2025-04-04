@@ -1,7 +1,7 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family:  Garamond, 'Times New Roman', Times, sans-serif;
   background-color: #fdf6f0;
-  color: #333;
+  color:  white;
   margin: 0;
   padding: 0;
 }
@@ -28,7 +28,21 @@ nav a {
 
 main {
   padding: 2rem;
-  background-color: #ffffff;
+  background-color: lightpink;
+}
+.profile-pic {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 footer {
